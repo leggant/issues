@@ -103,6 +103,7 @@ body:
     required: true
 - type: checkboxes
   id: requires
+  checked: false
   attributes:
     label: This Issue Will Likely Require.....
     description: This issue may need more frequent input from stakeholders, team members
