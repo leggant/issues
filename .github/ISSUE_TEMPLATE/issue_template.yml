@@ -8,17 +8,17 @@ body:
   attributes:
     label: How Urgent/Severe Is This Issue?
     description:
-      Level 1 = no research or testing required, less than 30 minutes work
-      Level 2 = no research or testing less than 2 hours work, no more than 10 commits
-      Level 3 = research required, 2-5 hours work
-      Level 4 = research, additional testing 5 - 8 hours
-      Level 5 = research, additional testing, redevelopment 8-10 Hours Work Possible
+      Level 1 = no research or testing required, less than 30 minutes work <br/>
+      Level 2 = no research or testing less than 2 hours work, no more than 10 commits <br/>
+      Level 3 = research required, 2-5 hours work <br/>
+      Level 4 = research, additional testing 5 - 8 hours <br/>
+      Level 5 = research, additional testing, redevelopment 8-10 Hours Work Possible <br/>
     options:
-      - Level 5 - 8-10+ Hours 
-      - Level 4 - 5-8 Hours
-      - Level 3 - 2-5 Hours
-      - Level 2 - <2 Hours
-      - Level 1 - <30 Minutes
+      - Security - Highest Priority 
+      - Stability
+      - Bug
+      - Performance
+      - New Feature
   validations:
     required: true
 - type: dropdown
