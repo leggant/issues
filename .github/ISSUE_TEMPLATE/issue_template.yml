@@ -108,11 +108,8 @@ body:
     description: This issue may need more frequent input from stakeholders, team members
     options:
       - label: Team Testing and Feedback
-        checked: false
       - label: Researching Possible Solutions
-        checked: false
       - label: Testing In Local Environment
-        checked: false
 - type: textarea
   attributes:
     label: Anything Else?
