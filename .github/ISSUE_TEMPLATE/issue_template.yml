@@ -8,13 +8,15 @@ body:
   attributes:
     label: How Urgent/Severe Is This Issue?
     description:
-      Level 1 = no research or testing required, less than 30 minutes work <br/>
-      Level 2 = no research or testing less than 2 hours work, no more than 10 commits <br/>
-      Level 3 = research required, 2-5 hours work <br/>
-      Level 4 = research, additional testing 5 - 8 hours <br/>
-      Level 5 = research, additional testing, redevelopment 8-10 Hours Work Possible <br/>
+      Failure = Has the Highest Priority <br/>
+      Security = Has High Priority <br/>
+      Stability =  <br/>
+      Bug =  <br/>
+      Performance =  <br/>
+      New Feature = research, consultation, approval, testing <br/>
     options:
-      - Security - Highest Priority 
+      - Failure - Highest Priority 
+      - Security - High Priority 
       - Stability
       - Bug
       - Performance
@@ -76,7 +78,6 @@ body:
       *Include any research, testing that might be needed*
   validations:
     required: true
-
 - type: dropdown
   id: assign-to
   attributes:
